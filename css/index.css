@@ -117,26 +117,33 @@ nav a {
   font-family: arial;
   padding: 1rem;
   margin-top: 5rem;
-  content: "|";
 }
 header {
-  margin-right: 34rem;
   display: flex;
   justify-content: center;
   align-content: center;
 }
-.title-container {
-  position: relative;
+header {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
   text-align: center;
+}
+.title-container {
+  display: flex;
+  position: relative;
   color: white;
-  width: 60%;
+  border-bottom: 2px solid gray;
 }
 .title-container img {
   opacity: 0.7;
-}
-img {
   margin: 5rem;
   max-width: 80%;
+}
+@media (max-width: 500px) {
+  .title-container img {
+    max-width: 70%;
+  }
 }
 h1 {
   font-size: 2.5rem;
@@ -145,9 +152,16 @@ h1 {
   font-family: arial;
   z-index: 100;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 48%;
+  left: 60%;
+  transform: translate(-80%, -90%);
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+  }
 }
 button {
   z-index: 100;
@@ -158,25 +172,70 @@ button {
   padding: 0.5rem;
   border-radius: 10%;
 }
+@media (max-width: 500px) {
+  button {
+    font-size: 12px;
+    display: flex;
+  }
+}
 .artists-container {
   display: flex;
+  padding: 5%;
+  max-width: 80%;
+}
+@media (max-width: 500px) {
+  .artists-container {
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+  }
 }
 .artist {
-  margin: 1rem;
-  max-width: 25%;
-  flex-wrap: no-wrap;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .artist {
+    padding: 1rem;
+  }
 }
 .artist img {
-  border-radius: 5%;
+  border-radius: 3%;
+  width: 350px;
+  height: 350px;
+  margin-left: 3rem;
+}
+@media (max-width: 500px) {
+  .artist img {
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+  }
 }
 .bio {
   font-family: arial;
   display: flex;
-  justify-content: center;
+  text-align: center;
+  margin-left: 2rem;
 }
-a {
+@media (max-width: 500px) {
+  .bio {
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
+.artist a {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
   font-family: arial;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .artist a {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
 }
