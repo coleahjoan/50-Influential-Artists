@@ -1,4 +1,182 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+.header-font {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  font-family: arial;
+}
+.font {
+  font-family: arial;
+}
+.button-styling {
+  z-index: 100;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem;
+  border-radius: 10%;
+}
+.link-styling {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: arial;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: arial;
+  padding: 1rem;
+  margin-top: 5rem;
+  content: "|";
+}
+header {
+  margin-right: 34rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.title-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 60%;
+}
+.title-container img {
+  opacity: 0.7;
+}
+img {
+  margin: 5rem;
+  max-width: 80%;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  font-family: arial;
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+button {
+  z-index: 100;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem;
+  border-radius: 10%;
+}
+.artists-container {
+  display: flex;
+}
+.artist {
+  margin: 1rem;
+  max-width: 25%;
+  flex-wrap: no-wrap;
+}
+.artist img {
+  border-radius: 5%;
+}
+.bio {
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: arial;
+}
