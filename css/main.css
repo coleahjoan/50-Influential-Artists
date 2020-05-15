@@ -1,0 +1,19 @@
+.title-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+img {
+  opacity: 0.5;
+  margin: 5rem;
+}
+h1 {
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.artists-container {
+  display: flex;
+}

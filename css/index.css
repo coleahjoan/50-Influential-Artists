@@ -1,4 +1,241 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+.header-font {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  font-family: arial;
+}
+.font {
+  font-family: arial;
+}
+.button-styling {
+  z-index: 100;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem;
+  border-radius: 10%;
+}
+.link-styling {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: arial;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: arial;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+header {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.title-container {
+  display: flex;
+  position: relative;
+  color: white;
+  border-bottom: 2px solid gray;
+}
+.title-container img {
+  opacity: 0.7;
+  margin: 5rem;
+  max-width: 80%;
+}
+@media (max-width: 500px) {
+  .title-container img {
+    max-width: 70%;
+  }
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  font-family: arial;
+  z-index: 100;
+  position: absolute;
+  top: 48%;
+  left: 60%;
+  transform: translate(-80%, -90%);
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+  }
+}
+button {
+  z-index: 100;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem;
+  border-radius: 10%;
+}
+@media (max-width: 500px) {
+  button {
+    font-size: 12px;
+    display: flex;
+  }
+}
+.artists-container {
+  display: flex;
+  padding: 5%;
+  max-width: 80%;
+}
+@media (max-width: 500px) {
+  .artists-container {
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+  }
+}
+.artist {
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .artist {
+    padding: 1rem;
+  }
+}
+.artist img {
+  border-radius: 3%;
+  width: 350px;
+  height: 350px;
+  margin-left: 3rem;
+}
+@media (max-width: 500px) {
+  .artist img {
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+  }
+}
+.bio {
+  font-family: arial;
+  display: flex;
+  text-align: center;
+  margin-left: 2rem;
+}
+@media (max-width: 500px) {
+  .bio {
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
+.artist a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: arial;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .artist a {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
